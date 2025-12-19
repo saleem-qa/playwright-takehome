@@ -57,30 +57,15 @@ This will install Playwright along with all required browser binaries.
 ## Installation Screenshot
 ![Playwright Installation](screenshots/Installation_Screenshot.png)
 
-## Running the Tests
+## Test Run
 
-### Run all tests (headless mode)
+### Test Run (headless mode)
 
 ```bash
 npx playwright test
 ```
-
-### Run the Todo test in headed mode (browser visible)
-
-```bash
-npx playwright test tests/todo.spec.js --headed
-```
-### To see the html report
-
-```bash
-npx playwright show-report
-```
-### Run tests using a single worker
-
-```bash
-npx playwright test tests/todo.spec.js --workers=1
-```
-This command was used to ensure sequential execution during local runs for easier observation and debugging.
+## Test-Run Screenshot
+![Sample Test](screenshots/Sample Test Screenshot 1.png)
 
 ## Test Coverage Summary
 
@@ -127,15 +112,31 @@ The configuration was intentionally simplified for local debugging and clarity.
 
 ## Execution Proof
 
-A screenshot showing successful execution of:
+### Run the Todo test in headed mode (browser visible)
 
 ```bash
-npx playwright test
+npx playwright test tests/todo.spec.js --headed
 ```
+## Todo Test Screenshot
+![Todo Test](screenshots/Todo-headed.png)
 
-is included with the submission as requested.
+### To see the html report
 
----
+```bash
+npx playwright show-report
+```
+## HTML Report
+![HTML Report](screenshots/HTML Report.png)
+
+### Run tests using a single worker
+
+```bash
+npx playwright test tests/todo.spec.js --workers=1
+```
+## Single Worker Screenshot
+![Single Worker](screenshots/Single Worker.png)
+
+This command was used to ensure sequential execution during local runs for easier observation and debugging.
 
 ## Conclusion
 
