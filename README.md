@@ -6,12 +6,12 @@ This repository contains a Playwright-based automated UI test created as part of
 
 The test validates core user flows of the **TodoMVC demo application**, including adding todos, completing items, filtering by status, and clearing completed tasks.
 
-🔗 **Application Under Test:**
+**Application Under Test:**
 [https://demo.playwright.dev/todomvc](https://demo.playwright.dev/todomvc)
 
 ---
 
-## 🛠️ Environment Details
+## Environment Details
 
 * **Node.js Version Used:** `v20.18.0`
 * **Language:** JavaScript
@@ -21,7 +21,7 @@ The test validates core user flows of the **TodoMVC demo application**, includin
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 playwright-takehome/
@@ -36,7 +36,7 @@ playwright-takehome/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -55,7 +55,7 @@ This will install Playwright along with all required browser binaries.
 
 ---
 
-## ▶️ Running the Tests
+## Running the Tests
 
 ### Run all tests (headless mode)
 
@@ -80,7 +80,7 @@ npx playwright test tests/todo.spec.js --workers=1
 ```
 This command was used to ensure sequential execution during local runs for easier observation and debugging.
 
-## 🧪 Test Coverage Summary
+## Test Coverage Summary
 
 The automated test performs the following actions:
 
@@ -108,7 +108,7 @@ For local execution and better visibility of browser actions, the following conf
 **Note**: Playwright supports multi-browser execution by default.
 The configuration was intentionally simplified for local debugging and clarity.
 
-## 🧠 Notes & Design Decisions
+## Notes & Design Decisions
 
 * User-centric locators (`getByRole`, `getByPlaceholder`) are used for better stability.
 * No hard waits are used to avoid flaky tests.
@@ -116,14 +116,14 @@ The configuration was intentionally simplified for local debugging and clarity.
 
 ---
 
-## 🤖 AI Usage
+## AI Usage
 
 * **AI / Cursor Usage:** Not used
   All code and documentation were written manually.
 
 ---
 
-## 📸 Execution Proof
+## Execution Proof
 
 A screenshot showing successful execution of:
 
@@ -135,7 +135,7 @@ is included with the submission as requested.
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This project demonstrates:
 
