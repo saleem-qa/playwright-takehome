@@ -65,7 +65,7 @@ This will install Playwright along with all required browser binaries.
 npx playwright test
 ```
 ## Test-Run Screenshot
-![Sample Test](screenshots/Sample Test Screenshot 1.png)
+![Sample Test](screenshots/Test-Run.png)
 
 ## Test Coverage Summary
 
@@ -126,7 +126,7 @@ npx playwright test tests/todo.spec.js --headed
 npx playwright show-report
 ```
 ## HTML Report
-![HTML Report](screenshots/HTML Report.png)
+![HTML Report](screenshots/HTML-Report.png)
 
 ### Run tests using a single worker
 
@@ -134,7 +134,7 @@ npx playwright show-report
 npx playwright test tests/todo.spec.js --workers=1
 ```
 ## Single Worker Screenshot
-![Single Worker](screenshots/Single Worker.png)
+![Single Worker](screenshots/Single-Worker.png)
 
 This command was used to ensure sequential execution during local runs for easier observation and debugging.
 
