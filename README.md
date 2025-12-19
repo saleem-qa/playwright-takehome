@@ -145,5 +145,3 @@ This project demonstrates:
 * Correct Playwright setup
 * Stable UI automation using modern Playwright APIs
 * Clear documentation for setup and execution
-
-Thank you for reviewing my submission.
