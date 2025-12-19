@@ -6,7 +6,7 @@ This repository contains a Playwright-based automated UI test created as part of
 
 The test validates core user flows of the **TodoMVC demo application**, including adding todos, completing items, filtering by status, and clearing completed tasks.
 
- **Application Under Test:**
+**Application Under Test:**
 [https://demo.playwright.dev/todomvc](https://demo.playwright.dev/todomvc)
 
 ---
@@ -144,3 +144,5 @@ This project demonstrates:
 * Correct Playwright setup
 * Stable UI automation using modern Playwright APIs
 * Clear documentation for setup and execution
+
+Thank you for reviewing my submission.
